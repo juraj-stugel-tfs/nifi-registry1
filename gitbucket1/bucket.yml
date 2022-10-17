@@ -1,5 +1,5 @@
 flows:
-  290cbaa7-a3f8-440b-b882-e81bbe390b4c: {ver: 1, file: git-flow1.snapshot, comments: '',
-    author: anonymous, created: 1665994615523, flowName: git-flow1, flowDesc: ''}
+  290cbaa7-a3f8-440b-b882-e81bbe390b4c: {ver: 2, file: git-flow1.snapshot, comments: flow2,
+    author: anonymous, created: 1665996015134, flowName: git-flow1, flowDesc: ''}
 layoutVer: 1
 bucketId: f58a0c98-47ed-41e2-b01c-44fd60625813

@@ -41,6 +41,39 @@
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "c86e7382-d2bb-36fa-ac49-97d28f9c0118",
+            "id" : "4ab2b7de-b851-3202-b84d-fd393be78f76",
+            "instanceIdentifier" : "e51995c2-0183-1000-53e2-718f164d780b",
+            "name" : "Funnel",
+            "type" : "FUNNEL"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "c86e7382-d2bb-36fa-ac49-97d28f9c0118",
+          "identifier" : "15a4b32c-ec85-3fa6-a70e-c849023a4371",
+          "instanceIdentifier" : "e519a1ca-0183-1000-82d3-7270cc1b9d97",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "c86e7382-d2bb-36fa-ac49-97d28f9c0118",
+            "id" : "a53f78bc-a8ee-38f9-ba43-f827b45c74af",
+            "instanceIdentifier" : "e503efe8-0183-1000-80f6-48620690ac6e",
+            "name" : "GenerateFlowFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
         } ],
         "controllerServices" : [ ],
         "defaultBackPressureDataSizeThreshold" : "1 GB",
@@ -56,6 +89,15 @@
           "position" : {
             "x" : 1170.0,
             "y" : 288.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "c86e7382-d2bb-36fa-ac49-97d28f9c0118",
+          "identifier" : "4ab2b7de-b851-3202-b84d-fd393be78f76",
+          "instanceIdentifier" : "e51995c2-0183-1000-53e2-718f164d780b",
+          "position" : {
+            "x" : 927.0,
+            "y" : 187.0
           }
         } ],
         "identifier" : "c86e7382-d2bb-36fa-ac49-97d28f9c0118",
